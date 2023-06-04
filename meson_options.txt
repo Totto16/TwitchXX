@@ -1,0 +1,7 @@
+option('tests', type: 'boolean', value: true, description: 'Build tests.')
+option(
+    'docs',
+    type: 'feature',
+    value: 'auto',
+    description: 'Build documentation',
+)

@@ -1,8 +1,4 @@
-find_package(Boost 1.55 COMPONENTS system)
-find_package(OpenSSL REQUIRED)
-find_package (Threads)
-find_package(GTest REQUIRED)
-set (CMAKE_CXX_STANDARD 17)
+
 
 add_executable(TwitchXX-Tests Clip.t.cpp TwitchXX-Tests.cpp Entitlement.t.cpp Game.t.cpp AppAccessToken.t.cpp
                               UserAccessToken.t.cpp Stream.t.cpp TestConstants.h StreamMetadata.t.cpp User.t.cpp
